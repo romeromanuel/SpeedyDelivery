@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedyDelivery</title>
+
+    <!--===== FAVICON =====-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!--===== FONT AWESOME =====-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+    <!--====== SLICK CSS =====-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--===== STYLES CSS =====-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--======= HEADER =======-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="/" class="nav__logo"><i class="fas fa-shipping-fast nav__logo-icon"></i>Speedy<span class="nav__logo-span">Delivery</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Tienda</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Acerca</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#testimonials" class="nav__link">Testimonios</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--======= HOME =======-->
+        <section class="home" id="home">
+            <div class="home__grid container">
+                <div class="home__img">
+                    <img src="img/home-img.png" alt="">
+                </div>
+                
+                <div class="home__content">
+                    <h1 class="home__title">Entrega rápida y segura</h1>
+
+                    <p class="home__description">Selecciona la comida que desees ordenar y SpeedyDelivery te la entrega en tiempo record.
+                    </p>
+
+                    <a href="#featured" class="btn btn-primary">Ordenar<i class="fas fa-arrow-right home__icon"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--======= SERVICES =======-->
+        <section class="services section" id="services">
+            <h2 class="section-title">¿Cómo funciona Speedy Delivery?</h2>
+            <p class="section-subtitle">Tu delivery en cuatro sencillos pasos</p>
+
+            <div class="services__grid container">
+                <div class="services__item">
+                    <div class="services__icon">
+                        <lord-icon
+                            src="https://cdn.lordicon.com//zzcjjxew.json"
+                            trigger="loop"
+                            colors="primary:#121331,secondary:#FF406B"
+                            stroke="70"
+                            style="width:120px;height:120px">
+                        </lord-icon>
+                    </div>
+
+                    <h3 class="services__title">1. Ingresa tu dirección</h3>
+                    
+                    <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit natus rem ipsum.</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__icon">
+                        <lord-icon 
+                            src="https://cdn.lordicon.com/fyhanzjw.json"
+                            trigger="loop"
+                            colors="primary:#121331,secondary:#FF406B"
+                            stroke="70"
+                            style="width:120px;height:120px">
+                        </lord-icon>
+                    </div>
+
+                    <h3 class="services__title">2. Selecciona la comida</h3>
+
+                    <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit natus rem ipsum.</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__icon">
+                        <lord-icon
+                            src="https://cdn.lordicon.com//vaeagfzc.json"
+                            trigger="loop"
+                            colors="primary:#121331,secondary:#FF406B"
+                            stroke="70"
+                            style="width:120px;height:120px">
+                        </lord-icon>
+                    </div>
+
+                    <h3 class="services__title">3. Realiza el pago</h3>
+                    
+                    <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit natus rem ipsum.</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__icon">
+                        <lord-icon
+                            src="https://cdn.lordicon.com/hovbgwmd.json"
+                            trigger="loop"
+                            colors="primary:#121331,secondary:#FF406B"
+                            stroke="70"
+                            style="width:120px;height:120px">
+                        </lord-icon>
+                    </div>
+
+                    <h3 class="services__title">4. Recibe tu orden</h3>
+                    
+                    <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit natus rem ipsum.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--======= FEATURED PRODUCTS =======-->
+        <section class="featured section" id="featured">
+            <h2 class="section-title">Productos Destacados</h2>
+
+            <div class="featured__grid container">
+                <!--======= Featured 1 =======-->
+                <div class="featured__item">
+                    <div class="featured__img">
+                        <img src="img/featured-1.jpg" alt="Imagen American Burger">
+                    </div>
+                    
+                    <div class="featured__content">
+                        <h3 class="featured__title">American Burger</h3>
+                        <p class="featured__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <span class="featured__price">$3.99</span>
+                    </div>
+                </div>
+
+                <!--======= Featured 2 =======-->
+                <div class="featured__item">               
+                    <div class="featured__img">
+                        <img src="img/featured-2.jpg" alt="Imagen Spicy Pizza">
+                    </div>
+
+                    <div class="featured__content">
+                        <h3 class="featured__title">Spicy Pizza</h3>
+                        <p class="featured__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <span class="featured__price">$4.99</span>
+                    </div>
+                </div>
+
+                <!--======= Featured 3 =======-->
+                <div class="featured__item">
+                    <div class="featured__img">
+                        <img src="img/featured-3.jpg" alt="Imagen Burrito Mix">
+                    </div>
+
+                    <div class="featured__content">
+                        <h3 class="featured__title">Burrito Mix</h3>
+                        <p class="featured__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <span class="featured__price">$6.99</span>
+                    </div>
+                </div>
+
+                <!--======= Featured 4 =======-->
+                <div class="featured__item">
+                    <div class="featured__img">
+                        <img src="img/featured-4.jpg" alt="Imagen Sushi">
+                    </div>
+
+                    <div class="featured__content">
+                        <h3 class="featured__title">Sushi</h3>
+                        <p class="featured__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <span class="featured__price">$7.99</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured__view-all">
+                <a href="#featured" class="btn btn-primary">Ver todos</a>
+            </div>
+        </section>
+
+        <!--======= ABOUT =======-->
+        <section class="about section container" id="about">
+            <div class="about__grid">
+                <img src="img/about.png" alt="Imagen About" class="about__img">
+
+                <div class="about__content">
+                    <h2 class="about__title">Acerca</h2>
+                    <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur consequatur porro sit, sint architecto ut nobis unde cumque odio nam temporibus odit, quidem nihil? Rem explicabo natus perspiciatis delectus amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur consequatur porro sit, sint architecto ut nobis unde cumque odio nam temporibus odit, quidem nihil? Rem explicabo natus perspiciatis delectus amet.</p>
+                    <a href="#" class="btn btn-hollow">Leer más</a>
+                </div>
+            </div> 
+        </section>
+
+        <!--======= TESTIMONIALS =======-->
+        <section class="testimonials section container" id="testimonials">
+            <h2 class="section-title">Testimonios</h2>
+
+            <div class="testimonials__container">
+                <!--===== Testimonial 1  =====-->
+                <div class="testimonials__item">
+                    <img src="img/testimonial-1.jpg" alt="Testimonio 1" class="testimonials__img">
+                    
+                    <h3 class="testimonials__title">Robert Pérez</h3>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonials__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis nihil cumque provident autem eligendi expedita corrupti
+                    </p>
+                </div>
+
+                <!--===== Testimonial 2  =====-->
+                <div class="testimonials__item">
+                    <img src="img/testimonial-2.jpg" alt="Testimonio 2" class="testimonials__img">
+                    
+                    <h3 class="testimonials__title">Emma Álvarez</h3>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="testimonials__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis nihil cumque provident autem eligendi expedita corrupti
+                    </p>
+                </div>
+
+                <!--===== Testimonial 3  =====-->
+                <div class="testimonials__item">
+                    <img src="img/testimonial-3.jpg" alt="Testimonio 3" class="testimonials__img">
+                    
+                    <h3 class="testimonials__title">Joaquín Antúnez</h3>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonials__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis nihil cumque provident autem eligendi expedita corrupti
+                    </p>
+                </div>
+
+                <!--===== Testimonial 4  =====-->
+                <div class="testimonials__item">
+                    <img src="img/testimonial-4.jpg" alt="Testimonio 4" class="testimonials__img">
+                    
+                    <h3 class="testimonials__title">Laura Rodríguez</h3>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="testimonials__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis nihil cumque provident autem eligendi expedita corrupti
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--======= BANNER =======-->
+        <section class="banner">
+            <video src="video/banner.mp4" class="banner__video" autoplay muted loop></video>
+
+            <div class="banner__overlay"></div>
+
+            <div class="banner__content">
+                <p class="banner__title">SpeedyDelivery es rapidez y seguridad</p>
+                <a href="#featured" class="btn btn-primary">Ordenar</a>
+            </div>
+        </section>
+
+        <!--======= BRANDS =======-->
+        <section class="brands section">
+            <div class="brands__grid container">
+                <!--===== Brand 1 =====-->
+                <img src="img/brand-1.png" class="brands__img" alt="Logo McDonalds">
+
+                <!--===== Brand 2 =====-->
+                <img src="img/brand-2.png" class="brands__img" alt="Logo Dominos Pizza">
+
+                <!--===== Brand 3 =====-->
+                <img src="img/brand-3.png" class="brands__img" alt="Logo Taco Bell">
+
+                <!--===== Brand 4 =====-->
+                <img src="img/brand-4.png" class="brands__img" alt="Logo Teriyaki Madness">
+            </div>
+        </section>
+    </main>
+ 
+    <!--======= FOOTER =======-->
+    <section class="footer container">
+        <p class="footer__copyright">&copy; 2021 SpeedyDelivery | Created by <a href="https://wa.link/a5wu77" target="_blank" class="footer__link">Manuel Romero</a></p>
+    </section>
+
+    <!--===== SCROLL TOP =====-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="fas fa-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!--===== LORD ICON =====-->
+    <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+
+    <!--===== JQUERY =====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--===== SLICK JS =====-->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
